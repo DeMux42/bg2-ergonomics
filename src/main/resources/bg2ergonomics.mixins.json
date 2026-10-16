@@ -1,0 +1,16 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "io.github.demux42.bg2ergonomics.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "TemplateManagerGUIMixin",
+    "VBORendererMixin"
+  ],
+  "mixins": [
+    "CopyMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
